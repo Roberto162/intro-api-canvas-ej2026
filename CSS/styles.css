@@ -1,0 +1,29 @@
+/* 
+   Archivo: styles.css
+   Descripción:
+   Aplica estilos visuales al elemento <canvas> con id "lienzo".
+   Se agregan esquinas redondeadas, sombra, borde azul oscuro
+   y fondo azul claro.
+*/
+
+/* Elimina márgenes por defecto del navegador */
+body {
+    margin: 0;
+    background-color: #f4f6f8; /* Fondo suave opcional para contraste */
+}
+
+
+/* Estilos del lienzo */
+#lienzo {
+    display: block;                 /* Evita espacio extra debajo */
+    margin: 20px auto;              /* Centra horizontalmente */
+    
+    background-color: #add8e6;      /* Azul claro (relleno) */
+    
+    border: 4px solid #003366;      /* Azul oscuro (línea/borde) */
+    
+    border-radius: 20px;            /* Esquinas redondeadas */
+    
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.3); 
+    /* Sombra suave */
+}
